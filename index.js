@@ -18,8 +18,8 @@ const mqttPort = process.env.MQTT_PORT || 1883;
 const corsOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
-  'https://coastal-grand-tolr.vercel.app',
-  'https://coastal-grand-back.onrender.com'
+  'https://frontend-ossc.vercel.app',
+  'https://backend-m4z0.onrender.com'
 ];
 if (process.env.FRONTEND_URL) corsOrigins.push(process.env.FRONTEND_URL);
 
